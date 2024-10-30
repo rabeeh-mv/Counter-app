@@ -1,0 +1,41 @@
+.container h2{
+   color: rgb(183, 183, 183);
+   margin-bottom: 20px;
+}
+.count-number{
+    width: 300px;
+    height: auto;
+    background-color: rgb(53, 53, 53);
+    /* opacity: 20%; */
+    margin: auto;
+    border-radius: 20px;
+    cursor: pointer;
+    border: solid .4px white;
+}
+.number{
+    font-size: 150px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+    /* text-align: center; */
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    
+}
+.edit-part{
+    width: 300px;
+    display: flex;
+    margin-top: 30px;
+    color: beige;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 80%;
+}
+.edit-part .edit-box{
+    background-color: rgb(53, 53, 53);
+    padding: 4px 25px;
+    border-radius: 5px;
+    border: solid .4px white;
+    cursor: pointer;   
+}
