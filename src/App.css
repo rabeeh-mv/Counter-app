@@ -3,6 +3,11 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 10px 400px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .App .container{
   align-items: center;
@@ -19,6 +24,11 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+@media (max-width:700px) {
+  .App{
+    padding: 5px 20px;
   }
 }
 
